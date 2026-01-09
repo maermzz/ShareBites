@@ -1,15 +1,9 @@
 # ShareBites
+**A Food Donation Matcher App**
 
-ShareBites is a cross-platform application that addresses food insecurity by connecting surplus food donors to local NGOs and food banks.
+ShareBites is an application designed to combat food waste in Pakistan.
 
 ## Key Features
-
-Real-time Matching: 
-Finds the nearest donor for a receiver using Dijkstra’s Algorithm.
-
-Urgency Sorting: 
-Automatically prioritizes food based on expiry date.
-
-Hybrid Backend:
-C++ core logic integrated with a Flutter UI for maximum efficiency.
-
+* **Multi-Level Prioritization:** Donations are automatically sorted using a two-tier priority system: 1) Earliest Expiry Date and 2) Maximum Weight (for identical dates).
+* **Real-time Matching:** Donations are visible only to the nearest receiver at run-time.
+* **Impact Reports:** Tracks the total weight of food rescued
