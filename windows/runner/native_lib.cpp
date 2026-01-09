@@ -1,4 +1,4 @@
-#include <vector>
+/* #include <vector>
 #include <queue>
 #include <unordered_map>
 #include <string>
@@ -217,3 +217,4 @@ __declspec(dllexport) const char* get_delivered_history(void* handle, const char
 }
 
 } // extern "C"
+*/

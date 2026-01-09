@@ -1,4 +1,4 @@
-# Android / IntelliJ
+# === Android / IntelliJ ===
 *.iml
 *.ipr
 *.iws
@@ -8,15 +8,19 @@ build/
 local.properties
 .metadata/
 
-# Miscellaneous
+# === Miscellaneous ===
 *.class
 *.log
 .DS_Store
 *.db
 *.dat
 
-# Flutter-specific (optional if using Flutter)
+# === Flutter / Dart caches ===
 .dart_tool/
 .flutter-plugins-dependencies
-.pub-cache/
 .pub/
+.pub-cache/
+
+# === ignore OS-specific files ===
+Thumbs.db
+Desktop.ini
